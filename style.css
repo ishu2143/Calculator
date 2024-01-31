@@ -1,0 +1,82 @@
+body{
+    background-color:  black;
+    margin: 0px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width: 35px;
+    height: 45px;
+}
+.main{
+    width: 280px;
+    height:320px;
+    border: 10px;
+    position: absolute;
+    top: 25%;
+    border-radius: 10px;
+    background-image:linear-gradient(to top right,#310047,#660094,#9614d0,#bb44f0,#d16aff) ;
+    display: flex;
+    justify-content: center;
+    
+}
+.calc{
+    width: 260px;
+    height: 300px;
+    margin: 2%;
+    border: 3px solid #CC9ECE;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.calc input[type='text']{
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 223px;
+    border-radius: 10px;
+    background-color: #F2D4D7;
+    border: solid black;
+    text-align: end;
+}
+#res{
+    padding: 10px;
+}
+.bts{
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom : 5px;
+}
+.bts input[type='button']{
+    width: 57px;
+    height: 46px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border: solid black;
+    background-color: black;
+    color: violet;
+}
+.bts input[type="button"]:hover{
+    background-image:linear-gradient(to top right,#310047,#660094,#9614d0,#bb44f0,#d16aff);
+    color: black;
+    border-radius: 10px;
+}
+.bts input[type="button"]:active{
+    background-image:linear-gradient(to top right,#310047,#660094,#9614d0,#bb44f0,#d16aff);
+    color: black;
+    border-radius: 10px;
+
+}
